@@ -41,19 +41,20 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    color: #fff;
+    fill: #ffffffbb;
     opacity: 0;
     animation: fadeIn 2s forwards;
     animation-delay: 0.5s;
     &--icon {
       text-decoration: none;
-      color: #fff;
+      color: #ffffff40;
       cursor: pointer;
       display: flex;
       flex-direction: column;
       text-align: center;
       & svg {
         transition: all 0.2s;
+        fill: #ffffff40;
       }
       &:hover {
         & span {
@@ -72,6 +73,14 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+  & a.active{
+    span{
+      color: #fff !important;
+    }
+    svg{
+      fill: #fff !important;
+    }
   }
 }
 
@@ -92,5 +101,25 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media(max-width: 768px){
+  .menu{
+    padding: .3rem 2rem;
+    width: 90%;
+    svg{
+      scale: 1 !important	;
+    }
+  }
+}
+@media(max-width: 425px){
+  .menu{
+    padding: 0 1rem;
+    width: 95%;
+    font-size: .8rem;
+    svg{
+      scale: .8 !important	;
+    }
   }
 }
