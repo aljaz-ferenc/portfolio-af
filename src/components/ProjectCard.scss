@@ -1,0 +1,102 @@
+.project-card {
+  min-height: 100vh;
+  max-width: 90%;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
+  gap: 3rem;
+  .left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .right {
+    width: 50%;
+    .subtitle {
+      margin-bottom: 2rem;
+      font-style: italic;
+    }
+  }
+  &__title {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  &__image {
+    width: 100%;
+    max-width: 50rem;
+  }
+  .paragraph {
+    margin-bottom: 1rem;
+    max-width: 50rem;
+  }
+  &__links {
+    display: flex;
+    gap: 10rem;
+    a {
+      margin-top: 2rem;
+      &:hover {
+        animation: wiggle 0.3s ease-in-out;
+      }
+    }
+    img {
+      height: 5rem;
+      filter: contrast(2);
+    }
+  }
+  hr {
+    width: 100%;
+  }
+}
+
+@keyframes wiggle {
+  0% {
+    rotate: -5deg;
+  }
+  25% {
+    rotate: 0deg;
+  }
+  50% {
+    rotate: 5deg;
+  }
+  75% {
+    rotate: 0deg;
+  }
+  100% {
+  }
+}
+
+@media (max-width: 1024px) {
+  .project-card {
+    .paragraph {
+      font-size: 1.2rem;
+    }
+    &__links {
+      justify-content: space-between;
+      img {
+        height: 4rem;
+        filter: contrast(2);
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .project-card {
+    // .paragraph{font-size: 1rem;}
+    flex-direction: column;
+    &__links {
+      gap: 5rem;
+    }
+    &__title {
+      font-size: 3rem;
+    }
+    .right,
+    .left {
+      width: 90%;
+    }
+  }
+}

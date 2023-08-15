@@ -1,0 +1,20 @@
+.about {
+  padding: 3rem;
+  max-width: 50rem;
+  margin: 0 auto;
+  &__title {
+    margin-top: 3rem;
+    font-size: 5rem;
+  }
+  &__subtitle {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+  &__paragraphs {
+    font-size: 1.2rem;
+    p {
+      margin-bottom: 1.5rem;
+      text-align: justify;
+    }
+  }
+}

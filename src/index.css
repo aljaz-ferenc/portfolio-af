@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Gruppo&family=Josefin+Slab&family=Kaushan+Script&family=News+Cycle&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  width: .8rem;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: rgba(62, 2, 127, 0.539);
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: rgb(22, 10, 66);
+}
+
+body {
+  font-family: "Josefin Slab", serif;
+  font-family: "News Cycle", sans-serif;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: rgb(0, 147, 205);
+}
+
+::selection {
+  color: rgb(0, 60, 60);
+  background: rgb(0, 147, 205);
+}

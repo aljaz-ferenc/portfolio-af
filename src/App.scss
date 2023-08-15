@@ -1,0 +1,27 @@
+.app {
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
+  position: relative;
+  &__background {
+    background: linear-gradient(to top right, rgb(0, 32, 74), rgb(93, 1, 230));
+    width: 200vw;
+    height: 200vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: animateBg 10s alternate infinite;
+    z-index: -1;
+  }
+}
+
+@keyframes animateBg {
+  from {
+    bottom: 0;
+    left: 0;
+  }
+  to {
+    bottom: -100vh;
+    left: -100vw;
+  }
+}
