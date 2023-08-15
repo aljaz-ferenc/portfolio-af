@@ -4,7 +4,6 @@ import { NavLink, Link, useLocation } from "react-router-dom";
 import { BsPersonVcard } from "react-icons/bs";
 import { GiChemicalDrop } from "react-icons/gi";
 import { GiRead } from "react-icons/gi";
-import { MdContactMail } from "react-icons/md";
 import { PiStackFill } from "react-icons/pi";
 
 export default function Menu() {
@@ -12,8 +11,7 @@ export default function Menu() {
 
   return (
     <div
-      className="menu"
-      style={{ bottom: location.pathname === "/" ? "50%" : "10%" }}
+      className={ location.pathname === "/" ? "menu centered" : "menu"}
     >
       <div className="menu__icons">
         <NavLink to="about" className="menu__icons--icon">

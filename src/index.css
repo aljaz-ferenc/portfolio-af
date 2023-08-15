@@ -23,6 +23,7 @@ body {
   font-family: "Josefin Slab", serif;
   font-family: "News Cycle", sans-serif;
   color: #fff;
+  overflow-x: hidden;
 }
 
 ::-moz-selection {

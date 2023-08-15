@@ -5,8 +5,8 @@
   position: relative;
   &__background {
     background: linear-gradient(to top right, rgb(0, 32, 74), rgb(93, 1, 230));
-    width: 200vw;
-    height: 200vh;
+    width: 100%;
+    height: 100%;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -15,13 +15,13 @@
   }
 }
 
-@keyframes animateBg {
-  from {
-    bottom: 0;
-    left: 0;
-  }
-  to {
-    bottom: -100vh;
-    left: -100vw;
-  }
-}
+// @keyframes animateBg {
+//   from {
+//     bottom: 0;
+//     left: 0;
+//   }
+//   to {
+//     bottom: -100vh;
+//     left: -100vw;
+//   }
+// }

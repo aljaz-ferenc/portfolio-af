@@ -184,7 +184,7 @@ export default function Stack() {
     const boxGeometry = new THREE.BoxGeometry(1, 1, 1);
 
     //creates and links three and cannon box
-    const randomNum = Math.floor(Math.random() * 3);
+    // const randomNum = Math.floor(Math.random() * 3);
     function createBox(width, height, depth, position, texture) {
       //three mesh
       const mesh = new THREE.Mesh(
@@ -216,7 +216,7 @@ export default function Stack() {
       objects.push({ mesh, body });
     }
     textures.forEach((texture, i) => {
-      createBox(1, 1, 1, positions[randomNum][i], texture);
+      createBox(1, 1, 1, positions[0][i], texture);
     });
 
     const sphereGeometry = new THREE.SphereGeometry(1, 20, 20);
