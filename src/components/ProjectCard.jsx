@@ -106,6 +106,7 @@ function Paragraph({ text }) {
       animate={textInView ? "animate" : "initial"}
       initial="initial"
       ref={textRef}
+      style={{color: text.startsWith('NOTE') ? 'red' : ''}}
     >
       {text}
     </motion.p>

@@ -23,7 +23,7 @@
         "With Workout Pal, users can create and share their personalized workout routines. The app guides you through a chosen workout and tells you exactly what exercise to do and when.",
         "FRONTEND - Built with React.js and Chakra-UI library for UI components.",
         "BACKEND - Built with Node/Express.js and MongoDB, it supports functionalities like signing up, logging in, creating, sharing and deleting workouts, updating passwords and account deletion.",
-        "NOTE - If the page doesn't load or login at first, please allow 30 seconds for the server to wake up from sleep mode. Try out the \"Test Workout\" in \"Explore Workouts\" section, which is kept short for testing purposes."
+        "NOTE - If the page doesn't load or login takes a while, please allow 30 seconds for the server to wake up from sleep mode. Try out the \"Test Workout\" in \"Explore Workouts\" section, which is kept short for testing purposes."
       ],
       "urls": 
         {
