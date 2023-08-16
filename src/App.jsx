@@ -1,6 +1,6 @@
 import "./App.scss";
 import RootLayout from "./layouts/RootLayout";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { Navigate, RouterProvider, createBrowserRouter } from "react-router-dom";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Stack from "./pages/Stack";
@@ -9,6 +9,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <RootLayout />,
+    errorElement: <Navigate to='/about'/>,
     children: [
       {
         path: "about",
