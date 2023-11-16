@@ -1,5 +1,22 @@
 [
     {
+      "title": "Vista Chat",
+      "subtitle": "Your chat, your way.",
+      "paragraphs": [
+        "Vista Chat enables user-to-user messaging and effortless sharing of images and files.",
+        "FRONTEND - On the frontend, the app is made using React.js, prioritizing a smooth and intuitive user interface for a hassle-free chatting experience.",
+        "BACKEND - The backend is powered by Express, incorporating a CRUD API for user account management and authentication via Json Web Tokens. MongoDB serves as the database, ensuring secure data storage, while real-time communication is facilitated by socket.io."
+      ],
+      "urls": 
+        {
+          "netlify": "https://vista-chat-af.netlify.app/login",
+          "github": "https://github.com/aljaz-ferenc/vista-chat/tree/master"
+        }
+      ,
+      "id": 0,
+      "image": "vista-chat"
+    },
+    {
       "title": "Travelology",
       "subtitle": "Your personal travel journal.",
       "paragraphs": [
@@ -13,7 +30,7 @@
           "github": "https://github.com/aljaz-ferenc/travelology"
         }
       ,
-      "id": 0,
+      "id": 1,
       "image": "travelology"
     },
     {
@@ -31,7 +48,7 @@
           "github": "https://github.com/aljaz-ferenc/workout-pal"
         }
       ,
-      "id": 1,
+      "id": 2,
       "image": "workout-pal"
     },
     {
@@ -47,7 +64,7 @@
           "github": "https://github.com/aljaz-ferenc/sleepiest-clone"
         }
       ,
-      "id": 2,
+      "id": 3,
       "image": "sleepiest"
     },
     {
@@ -63,7 +80,7 @@
           "github": "https://github.com/aljaz-ferenc/ecommerce"
         }
       ,
-      "id": 3,
+      "id": 4,
       "image": "e-commerce"
     },
     {
@@ -79,7 +96,7 @@
           "github": "https://github.com/aljaz-ferenc/alien-invaders"
         }
       ,
-      "id": 4,
+      "id": 5,
       "image": "alien-invaders"
     },
     {
@@ -96,7 +113,7 @@
           "github": "https://github.com/aljaz-ferenc/snippets"
         }
       ,
-      "id": 5,
+      "id": 6,
       "image": "snippets"
     }
   ]
