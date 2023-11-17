@@ -1,119 +1,106 @@
 [
-    {
-      "title": "Vista Chat",
-      "subtitle": "Your chat, your way.",
-      "paragraphs": [
-        "Vista Chat enables user-to-user messaging and effortless sharing of images and files.",
-        "FRONTEND - On the frontend, the app is made using React.js, prioritizing a smooth and intuitive user interface for a hassle-free chatting experience.",
-        "BACKEND - The backend is powered by Express, incorporating a CRUD API for user account management and authentication via Json Web Tokens. MongoDB serves as the database, ensuring secure data storage, while real-time communication is facilitated by socket.io."
-      ],
-      "urls": 
-        {
-          "netlify": "https://vista-chat-af.netlify.app/login",
-          "github": "https://github.com/aljaz-ferenc/vista-chat/tree/master"
-        }
-      ,
-      "id": 0,
-      "image": "vista-chat"
+  {
+    "title": "Vista Chat",
+    "subtitle": "Your chat, your way.",
+    "paragraphs": [
+      "Vista Chat enables user-to-user messaging and effortless sharing of images and files.",
+      "FRONTEND - On the frontend, the app is made using React.js, prioritizing a smooth and intuitive user interface for a hassle-free chatting experience.",
+      "BACKEND - The backend is powered by Express, incorporating a CRUD API for user account management and authentication via Json Web Tokens. MongoDB serves as the database, while real-time communication is facilitated by socket.io.",
+      "NOTE - Please allow 30 seconds for the server to start, if the page doesn't load or login immediately."
+    ],
+    "urls": {
+      "netlify": "https://vista-chat-af.netlify.app/login",
+      "github": "https://github.com/aljaz-ferenc/vista-chat/tree/master"
     },
-    {
-      "title": "Travelology",
-      "subtitle": "Your personal travel journal.",
-      "paragraphs": [
-        "Travelology is a companion app for travel enthusiasts, which allows them to save new trips with detailed descriptions and pinpoint their favorite places on a map.",
-        "FRONTEND - The app was built with React.js and React Leaflet on the frontend, providing an interactive user interface.",
-        "BACKEND - Powered by Express.js and MongoDB and implements essential CRUD functionalities and user authentication using Json Web Tokens and cookies."
-      ],
-      "urls": 
-        {
-          "netlify": "https://travelology-af.netlify.app/",
-          "github": "https://github.com/aljaz-ferenc/travelology"
-        }
-      ,
-      "id": 1,
-      "image": "travelology"
+    "id": 0,
+    "image": "vista-chat"
+  },
+  {
+    "title": "Travelology",
+    "subtitle": "Your personal travel journal.",
+    "paragraphs": [
+      "Travelology is a companion app for travel enthusiasts, which allows them to save new trips with detailed descriptions and pinpoint their favorite places on a map.",
+      "FRONTEND - The app was built with React.js and React Leaflet on the frontend, providing an interactive user interface.",
+      "BACKEND - Powered by Express.js and MongoDB and implements essential CRUD functionalities and user authentication using Json Web Tokens and cookies."
+    ],
+    "urls": {
+      "netlify": "https://travelology-af.netlify.app/",
+      "github": "https://github.com/aljaz-ferenc/travelology"
     },
-    {
-      "title": "Workout Pal",
-      "subtitle": "The ultimate fitness companion.",
-      "paragraphs": [
-        "With Workout Pal, users can create and share their personalized workout routines. The app guides you through a chosen workout and tells you exactly what exercise to do and when.",
-        "FRONTEND - Built with React.js and Chakra-UI library for UI components.",
-        "BACKEND - Built with Node/Express.js and MongoDB, it supports functionalities like signing up, logging in, creating, sharing and deleting workouts, updating passwords and account deletion.",
-        "NOTE - If the page doesn't load or login takes a while, please allow 30 seconds for the server to wake up from sleep mode. Try out the \"Test Workout\" in \"Explore Workouts\" section, which is kept short for testing purposes."
-      ],
-      "urls": 
-        {
-          "netlify": "https://workout-pal-af.netlify.app/login",
-          "github": "https://github.com/aljaz-ferenc/workout-pal"
-        }
-      ,
-      "id": 2,
-      "image": "workout-pal"
+    "id": 1,
+    "image": "travelology"
+  },
+  {
+    "title": "Workout Pal",
+    "subtitle": "The ultimate fitness companion.",
+    "paragraphs": [
+      "With Workout Pal, users can create and share their personalized workout routines. The app guides you through a chosen workout and tells you exactly what exercise to do and when.",
+      "FRONTEND - Built with React.js and Chakra-UI library for UI components.",
+      "BACKEND - Built with Node/Express.js and MongoDB, it supports functionalities like signing up, logging in, creating, sharing and deleting workouts, updating passwords and account deletion.",
+      "NOTE - Please allow 30 seconds for the server to start, if the page doesn't load or login at first."
+    ],
+    "urls": {
+      "netlify": "https://workout-pal-af.netlify.app/login",
+      "github": "https://github.com/aljaz-ferenc/workout-pal"
     },
-    {
-      "title": "Sleepiest Clone",
-      "subtitle": "All about animations.",
-      "paragraphs": [
-        "This is a clone of the sleepiest.com landing page. I chose this website for its beautiful design and animations.",
-        "Animations are made with Framer Motion, mostly based on scrolling. The page uses a few different types of animations like animating elements as they come into view, staggering animations and parallax effect."
-      ],
-      "urls": 
-        {
-          "netlify": "https://sleepiest-clone-af.netlify.app/",
-          "github": "https://github.com/aljaz-ferenc/sleepiest-clone"
-        }
-      ,
-      "id": 3,
-      "image": "sleepiest"
+    "id": 2,
+    "image": "workout-pal"
+  },
+  {
+    "title": "Sleepiest Clone",
+    "subtitle": "All about animations.",
+    "paragraphs": [
+      "This is a clone of the sleepiest.com landing page. I chose this website for its beautiful design and animations.",
+      "Animations are made with Framer Motion, mostly based on scrolling. The page uses a few different types of animations like animating elements as they come into view, staggering animations and parallax effect."
+    ],
+    "urls": {
+      "netlify": "https://sleepiest-clone-af.netlify.app/",
+      "github": "https://github.com/aljaz-ferenc/sleepiest-clone"
     },
-    {
-      "title": "E-commerce",
-      "subtitle": "Come on in, we've got great deals!",
-      "paragraphs": [
-        "This e-commerce demo app was built with React.js, React Router, Redux Toolkit for state management and Redux Persist.",
-        "Supabase is used as a backend, which provides the neccessary information about the products. With the help of Redux Persist state is saved in persistent storage and rehydrated on page refresh so that the content of your cart is not lost when you leave the page."
-      ],
-      "urls": 
-        {
-          "netlify": "https://store-af.netlify.app/",
-          "github": "https://github.com/aljaz-ferenc/ecommerce"
-        }
-      ,
-      "id": 4,
-      "image": "e-commerce"
+    "id": 3,
+    "image": "sleepiest"
+  },
+  {
+    "title": "E-commerce",
+    "subtitle": "Come on in, we've got great deals!",
+    "paragraphs": [
+      "This e-commerce demo app was built with React.js, React Router, Redux Toolkit for state management and Redux Persist.",
+      "Supabase is used as a backend, which provides the neccessary information about the products. With the help of Redux Persist state is saved in persistent storage and rehydrated on page refresh so that the content of your cart is not lost when you leave the page."
+    ],
+    "urls": {
+      "netlify": "https://store-af.netlify.app/",
+      "github": "https://github.com/aljaz-ferenc/ecommerce"
     },
-    {
-      "title": "Alien Invaders",
-      "subtitle": "Remember the 90s?",
-      "paragraphs": [
-        "For this app I decided to explore HTML canvas and making games in JavaScript and it was a very fun project to work on. Elements are constantly being tracked for collision detection. Collisions between different elements have different outcomes.",
-        "The user can choose their battleship, aliens change color based on how many times they have been hit, and every now and then you'll get an upgrade drop which makes your ship shoot multiple bullets at once. The game has four levels and new levels can be added very easily."
-      ],
-      "urls": 
-        {
-          "netlify": "https://alien-invaders-af.netlify.app/",
-          "github": "https://github.com/aljaz-ferenc/alien-invaders"
-        }
-      ,
-      "id": 5,
-      "image": "alien-invaders"
+    "id": 4,
+    "image": "e-commerce"
+  },
+  {
+    "title": "Alien Invaders",
+    "subtitle": "Remember the 90s?",
+    "paragraphs": [
+      "For this app I decided to explore HTML canvas and making games in JavaScript and it was a very fun project to work on. Elements are constantly being tracked for collision detection. Collisions between different elements have different outcomes.",
+      "The user can choose their battleship, aliens change color based on how many times they have been hit, and every now and then you'll get an upgrade drop which makes your ship shoot multiple bullets at once. The game has four levels and new levels can be added very easily."
+    ],
+    "urls": {
+      "netlify": "https://alien-invaders-af.netlify.app/",
+      "github": "https://github.com/aljaz-ferenc/alien-invaders"
     },
-    {
-      "title": "Snippets",
-      "subtitle": "Online code editor.",
-      "paragraphs": [
-        "Snippets code editor allows users to write HTML, CSS and JavaScript code, save code snippets or update existing ones.",
-        "The app was written in React.js, with the help of Supabase as a backend and Redux Toolkit for state management.",
-        "A few demo snippets have already been created and can be found on the 'My Snippets' page. Feel free to add, edit or remove them for testing/reviewing purposes."
-      ],
-      "urls": 
-        {
-          "netlify": "https://snippets-af.netlify.app/",
-          "github": "https://github.com/aljaz-ferenc/snippets"
-        }
-      ,
-      "id": 6,
-      "image": "snippets"
-    }
-  ]
+    "id": 5,
+    "image": "alien-invaders"
+  },
+  {
+    "title": "Snippets",
+    "subtitle": "Online code editor.",
+    "paragraphs": [
+      "Snippets code editor allows users to write HTML, CSS and JavaScript code, save code snippets or update existing ones.",
+      "The app was written in React.js, with the help of Supabase as a backend and Redux Toolkit for state management.",
+      "A few demo snippets have already been created and can be found on the 'My Snippets' page. Feel free to add, edit or remove them for testing/reviewing purposes."
+    ],
+    "urls": {
+      "netlify": "https://snippets-af.netlify.app/",
+      "github": "https://github.com/aljaz-ferenc/snippets"
+    },
+    "id": 6,
+    "image": "snippets"
+  }
+]

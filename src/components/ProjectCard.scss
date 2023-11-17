@@ -2,8 +2,7 @@
   min-height: 100vh;
   max-width: 90%;
   margin: 0 auto;
-  color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,13 +16,15 @@
   }
   .right {
     width: 50%;
+    padding: 1rem;
+    border-radius: 10px;
     .subtitle {
       margin-bottom: 2rem;
       font-style: italic;
     }
   }
   &__title {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
   }
   &__image {

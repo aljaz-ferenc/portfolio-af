@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Workout Pal",
+    "subtitle": "The ultimate fitness companion.",
+    "paragraphs": [
+      "With Workout Pal, users can create and share their personalized workout routines. The app guides you through a chosen workout and tells you exactly what exercise to do and when.",
+      "FRONTEND - Built with React.js and Chakra-UI library for UI components.",
+      "BACKEND - Built with Node/Express.js and MongoDB, it supports functionalities like signing up, logging in, creating, sharing and deleting workouts, updating passwords and account deletion.",
+      "NOTE - Please allow 30 seconds for the server to start, if the page doesn't load or login at first."
+    ],
+    "urls": {
+      "netlify": "https://workout-pal-af.netlify.app/login",
+      "github": "https://github.com/aljaz-ferenc/workout-pal"
+    },
+    "id": 2,
+    "image": "workout-pal"
+  },
+  {
+    "title": "E-commerce",
+    "subtitle": "Come on in, we've got great deals!",
+    "paragraphs": [
+      "This e-commerce demo app was built with React.js, React Router, Redux Toolkit for state management and Redux Persist.",
+      "Supabase is used as a backend, which provides the neccessary information about the products. With the help of Redux Persist state is saved in persistent storage and rehydrated on page refresh so that the content of your cart is not lost when you leave the page."
+    ],
+    "urls": {
+      "netlify": "https://store-af.netlify.app/",
+      "github": "https://github.com/aljaz-ferenc/ecommerce"
+    },
+    "id": 4,
+    "image": "e-commerce"
+  }
+]
