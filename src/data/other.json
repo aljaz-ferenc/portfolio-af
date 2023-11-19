@@ -28,5 +28,19 @@
     },
     "id": 4,
     "image": "e-commerce"
+  },
+  {
+    "title": "E-commerce",
+    "subtitle": "Come on in, we've got great deals!",
+    "paragraphs": [
+      "This e-commerce demo app was built with React.js, React Router, Redux Toolkit for state management and Redux Persist.",
+      "Supabase is used as a backend, which provides the neccessary information about the products. With the help of Redux Persist state is saved in persistent storage and rehydrated on page refresh so that the content of your cart is not lost when you leave the page."
+    ],
+    "urls": {
+      "netlify": "https://store-af.netlify.app/",
+      "github": "https://github.com/aljaz-ferenc/ecommerce"
+    },
+    "id": 4,
+    "image": "e-commerce"
   }
 ]
