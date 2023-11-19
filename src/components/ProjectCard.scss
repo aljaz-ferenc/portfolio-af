@@ -8,6 +8,15 @@
   justify-content: center;
   padding: 5rem 0;
   gap: 3rem;
+  position:  relative;
+  &__index{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 15vw;
+    font-weight: bold;
+    opacity: .05;
+  }
   .left {
     width: 50%;
     display: flex;
@@ -19,12 +28,13 @@
     padding: 1rem;
     border-radius: 10px;
     .subtitle {
+      font-size: 1.8vw;
       margin-bottom: 2rem;
       font-style: italic;
     }
   }
   &__title {
-    font-size: 3rem;
+    font-size: 5vw;
     font-weight: bold;
   }
   &__image {
@@ -73,8 +83,14 @@
 
 @media (max-width: 1024px) {
   .project-card {
+    
     .paragraph {
       font-size: 1.2rem;
+    }
+    .right{
+      .subtitle{
+        font-size: 1.5rem;
+      }
     }
     &__links {
       justify-content: space-between;
@@ -87,17 +103,38 @@
 }
 @media (max-width: 768px) {
   .project-card {
-    // .paragraph{font-size: 1rem;}
     flex-direction: column;
     &__links {
       gap: 5rem;
+    }
+    &__index{
+      display: none;
     }
     &__title {
       font-size: 3rem;
     }
     .right,
     .left {
-      width: 90%;
+      width: 95%;
+    }
+    
+  }
+}
+
+@media (max-width: 425px) {
+  .project-card {
+    max-width: 95%;
+    &__links {
+      gap: 2rem;
+    }
+    &__title {
+      font-size: 3rem;
+      line-height: 1;
+    }
+    .right,
+    .left {
+      width: 100%;
     }
   }
 }
+

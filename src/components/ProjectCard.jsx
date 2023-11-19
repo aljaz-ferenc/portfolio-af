@@ -45,7 +45,7 @@ const imageVariants = {
   },
 };
 
-export default function ProjectCard({ project }) {
+export default function ProjectCard({ project, index }) {
   const imgRef = useRef();
   const titleRef = useRef();
   const imgInView = useInView(imgRef, { once: true });
@@ -53,6 +53,7 @@ export default function ProjectCard({ project }) {
 
   return (
     <div className="project-card">
+      <span className="project-card__index">{index + 1}</span>
       <motion.div
         ref={imgRef}
         variants={imageVariants}

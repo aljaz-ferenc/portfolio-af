@@ -16,15 +16,15 @@ export default function Menu() {
       <div className="menu__icons">
         <NavLink to="about" className="menu__icons--icon">
           <span>About</span>
-          <BsPersonVcard size={50} color="white" />
+          <BsPersonVcard size={35} color="white" />
         </NavLink>
         <NavLink to="projects" className="menu__icons--icon">
           <span>Projects</span>
-          <GiChemicalDrop size={50} color="white" />
+          <GiChemicalDrop size={35} color="white" />
         </NavLink>
         <NavLink to="stack" className="menu__icons--icon">
           <span>Stack</span>
-          <PiStackFill size={50} color="white" />
+          <PiStackFill size={35} color="white" />
         </NavLink>
         <Link
           to="https://blog-react-af.netlify.app/"
@@ -32,7 +32,7 @@ export default function Menu() {
           className="menu__icons--icon"
         >
           <span>Blog</span>
-          <GiRead size={50} color="white" />
+          <GiRead size={35} color="white" />
         </Link>
       </div>
     </div>

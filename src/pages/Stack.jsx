@@ -308,7 +308,7 @@ export default function Stack() {
       requestAnimationFrame(animate);
     }
     animate();
-  });
+  }, []);
 
   return (
     <div className="stack">

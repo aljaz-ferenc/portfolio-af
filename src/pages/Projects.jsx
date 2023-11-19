@@ -10,7 +10,7 @@ export default function Projects() {
     <div className="projects">
       {projects.map((proj, index) => (
         <div key={proj.id}>
-          <ProjectCard project={proj} />
+          <ProjectCard index={index} project={proj} />
           {index < projects.length - 1 && <hr />}
         </div>
       ))}
