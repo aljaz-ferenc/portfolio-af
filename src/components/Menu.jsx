@@ -27,7 +27,7 @@ export default function Menu() {
           <PiStackFill size={35} color="white" />
         </NavLink>
         <Link
-          to="https://blog-react-af.netlify.app/"
+          to="https://blog-next-virid.vercel.app/"
           target="_blank"
           className="menu__icons--icon"
         >
