@@ -1,3 +1,5 @@
+import { CgChevronDoubleRight } from "react-icons/cg"; 
+import { BsChevronDoubleRight } from "react-icons/bs"; 
 import { Link } from "react-router-dom";
 import "./ProjectCard.scss";
 import { motion, useInView } from "framer-motion";
@@ -84,11 +86,18 @@ export default function ProjectCard({ project, index }) {
           ))}
         </div>
         <div className="project-card__links">
-          <Link to={project.urls.github} target="_blank">
+          <Link to={project.urls.github} target="_blank" className="project-card__links--github">
             <img src={`icons/github.svg`} alt="" />
           </Link>
-          <Link to={project.urls.netlify} target="_blank">
-            <img src={`icons/netlify.svg`} alt="" />
+          <Link to={project.urls.netlify} target="_blank" className="project-card__links--live-page">
+            {/* <img src={`icons/netlify.svg`} alt="" /> */}
+            <button>
+            <span>
+              Live Page
+            </span>
+            {/* <BsChevronDoubleRight className="chevron" /> */}
+            <CgChevronDoubleRight className="chevron" size={25}/>
+              </button>
           </Link>
         </div>
       </div>

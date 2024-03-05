@@ -47,16 +47,47 @@
   }
   &__links {
     display: flex;
+    align-items: center;
     gap: 10rem;
-    a {
-      margin-top: 2rem;
-      &:hover {
+    &--github{
+        &:hover {
         animation: wiggle 0.3s ease-in-out;
       }
+    }
+    a {
+      margin-top: 2rem;
+      text-decoration: none;
     }
     img {
       height: 5rem;
       filter: contrast(2);
+    }
+    button{
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: .75rem 2rem;
+      font-size: 1rem;
+      border-radius: 1rem;
+      border: none;
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      background-color: #9195F6;
+      color: rgb(15, 11, 93);
+      font-weight: bold;
+      font-family: inherit;
+      cursor: pointer;
+      transition: all 0.2s;
+      & .chevron{
+        transition: all 0.2s;
+      }
+      &:hover{
+        background-color: #a9abf6;
+        & .chevron{
+          scale: 1.5;
+          transform: translateX(10px);
+        }
+      }
     }
   }
   hr {
