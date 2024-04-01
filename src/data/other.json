@@ -42,5 +42,36 @@
     },
     "id": 4,
     "image": "e-commerce"
+  },
+  {
+    "title": "Snippets",
+    "subtitle": "Online code editor.",
+    "paragraphs": [
+      "Snippets code editor allows users to write HTML, CSS and JavaScript code, save code snippets or update existing ones.",
+      "The app was written in React.js, with the help of Supabase as a backend and Redux Toolkit for state management.",
+      "A few demo snippets have already been created and can be found on the 'My Snippets' page. Feel free to add, edit or remove them for testing/reviewing purposes."
+    ],
+    "urls": {
+      "netlify": "https://snippets-af.netlify.app/",
+      "github": "https://github.com/aljaz-ferenc/snippets"
+    },
+    "id": 5,
+    "image": "snippets"
+  },
+  {
+    "title": "Workout Pal",
+    "subtitle": "The ultimate fitness companion.",
+    "paragraphs": [
+      "With Workout Pal, users can create and share their personalized workout routines. The app guides you through a chosen workout and tells you exactly what exercise to do and when.",
+      "FRONTEND - Built with React.js and Chakra-UI library for UI components.",
+      "BACKEND - Built with Node/Express.js and MongoDB, it supports functionalities like signing up, logging in, creating, sharing and deleting workouts, updating passwords and account deletion.",
+      "NOTE - Please allow 30 seconds for the server to start, if the page doesn't load or login at first."
+    ],
+    "urls": {
+      "netlify": "https://workout-pal-af.netlify.app/login",
+      "github": "https://github.com/aljaz-ferenc/workout-pal"
+    },
+    "id": 2,
+    "image": "workout-pal"
   }
 ]

@@ -1,5 +1,20 @@
 [
   {
+    "title": "Hypertrophy",
+    "subtitle": "Plan Your Path to Fitness Success.",
+    "paragraphs": [
+      "With the Hypertrophy app you can effectively plan and structure your workouts into mesocycles. A mesocycle is a structured period of training typically lasting several weeks to a few months, focusing on specific aspects of fitness or performance.",
+      "Daily you are presented with the workout you need to perform based on your mesocycle's schedule. This eliminates guesswork, ensuring you follow your planned regimen. Every completed workout is stored, which allows for a clear overview of your training and tracking progress.",
+      "This fullstack app is built with Next.js and uses MongoDB for storing data, Shadcn UI library, and Clerk for OAuth authentication."
+    ],
+    "urls": {
+      "netlify": "https://hypertrophy-self.vercel.app/",
+      "github": "https://github.com/aljaz-ferenc/hypertrophy"
+    },
+    "id": 0,
+    "image": "hypertrophy"
+  },
+  {
     "title": "Vista Chat",
     "subtitle": "Your chat, your way.",
     "paragraphs": [
@@ -31,22 +46,6 @@
     "image": "travelology"
   },
   {
-    "title": "Workout Pal",
-    "subtitle": "The ultimate fitness companion.",
-    "paragraphs": [
-      "With Workout Pal, users can create and share their personalized workout routines. The app guides you through a chosen workout and tells you exactly what exercise to do and when.",
-      "FRONTEND - Built with React.js and Chakra-UI library for UI components.",
-      "BACKEND - Built with Node/Express.js and MongoDB, it supports functionalities like signing up, logging in, creating, sharing and deleting workouts, updating passwords and account deletion.",
-      "NOTE - Please allow 30 seconds for the server to start, if the page doesn't load or login at first."
-    ],
-    "urls": {
-      "netlify": "https://workout-pal-af.netlify.app/login",
-      "github": "https://github.com/aljaz-ferenc/workout-pal"
-    },
-    "id": 2,
-    "image": "workout-pal"
-  },
-  {
     "title": "Sleepiest Clone",
     "subtitle": "All about animations.",
     "paragraphs": [
@@ -73,20 +72,5 @@
     },
     "id": 4,
     "image": "alien-invaders"
-  },
-  {
-    "title": "Snippets",
-    "subtitle": "Online code editor.",
-    "paragraphs": [
-      "Snippets code editor allows users to write HTML, CSS and JavaScript code, save code snippets or update existing ones.",
-      "The app was written in React.js, with the help of Supabase as a backend and Redux Toolkit for state management.",
-      "A few demo snippets have already been created and can be found on the 'My Snippets' page. Feel free to add, edit or remove them for testing/reviewing purposes."
-    ],
-    "urls": {
-      "netlify": "https://snippets-af.netlify.app/",
-      "github": "https://github.com/aljaz-ferenc/snippets"
-    },
-    "id": 5,
-    "image": "snippets"
   }
 ]

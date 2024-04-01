@@ -67,22 +67,23 @@
       letter-spacing: 1px;
       padding: .75rem 2rem;
       font-size: 1rem;
-      border-radius: 1rem;
+      border-radius: 5px;
       border: none;
       display: flex;
       align-items: center;
       gap: .5rem;
-      background-color: #9195F6;
-      color: rgb(15, 11, 93);
+      background-color: white;
+      color: black;
       font-weight: bold;
       font-family: inherit;
       cursor: pointer;
       transition: all 0.2s;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.272);
       & .chevron{
         transition: all 0.2s;
       }
       &:hover{
-        background-color: #a9abf6;
+        box-shadow: none;
         & .chevron{
           scale: 1.5;
           transform: translateX(10px);
