@@ -5,7 +5,7 @@
     "paragraphs": [
       "With the Hypertrophy app you can effectively plan and structure your workouts into mesocycles. A mesocycle is a structured period of training typically lasting several weeks to a few months, focusing on specific aspects of fitness or performance.",
       "Daily you are presented with the workout you need to perform based on your mesocycle's schedule. This eliminates guesswork, ensuring you follow your planned regimen. Every completed workout is stored, which allows for a clear overview of your training and tracking progress.",
-      "This fullstack app is built with Next.js and uses MongoDB for storing data, Shadcn UI library, and Clerk for OAuth authentication."
+      "This fullstack app is built with Next.js, TypeScript, Tailwind, and uses MongoDB for storing data, Shadcn UI library, and Clerk for OAuth authentication."
     ],
     "urls": {
       "netlify": "https://hypertrophy-self.vercel.app/",
@@ -27,7 +27,7 @@
       "netlify": "https://vista-chat-af.netlify.app/login",
       "github": "https://github.com/aljaz-ferenc/vista-chat/tree/master"
     },
-    "id": 0,
+    "id": 1,
     "image": "vista-chat"
   },
   {
@@ -42,7 +42,7 @@
       "netlify": "https://travelology-af.netlify.app/",
       "github": "https://github.com/aljaz-ferenc/travelology"
     },
-    "id": 1,
+    "id": 2,
     "image": "travelology"
   },
   {

@@ -20,6 +20,9 @@ const positions = [
     // //top
     { x: -1, y: 2.5, z: 0 },
     { x: 0.5, y: 2.5, z: 0 },
+    {x: -0.25, y: 3.5, z: 0},
+    {x: -0.25, y: 4.5, z: 0},
+    {x: -0.25, y: 5.5, z: 0}
   ],
   [
     //towers
@@ -82,7 +85,8 @@ export default function Stack() {
       0.1,
       100
     );
-    camera.position.set(-3, 5, 10);
+    camera.position.set(-5, 1, 10);
+    // camera.rotation.y = 8
 
     //renderer
     const renderer = new THREE.WebGLRenderer({
@@ -138,6 +142,9 @@ export default function Stack() {
       "react",
       "node",
       "mongodb",
+      "nextjs",
+      "tailwindcss",
+      "typescript"
     ];
 
     /*********************************************
@@ -278,7 +285,8 @@ export default function Stack() {
     const clock = new THREE.Clock();
     const controls = new OrbitControls(camera, canvas);
     controls.enableDamping = true;
-    controls.maxPolarAngle = Math.PI / 2.2;
+    controls.maxPolarAngle = Math.PI / 2;
+    controls.target.set(0, 2, 0)
 
     let previousElapsedTime = 0;
 
