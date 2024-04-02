@@ -22,7 +22,7 @@ const positions = [
     { x: 0.5, y: 2.5, z: 0 },
     {x: -0.25, y: 3.5, z: 0},
     {x: -0.25, y: 4.5, z: 0},
-    {x: -0.25, y: 5.5, z: 0}
+    // {x: -0.25, y: 5.5, z: 0}
   ],
   [
     //towers
@@ -144,7 +144,7 @@ export default function Stack() {
       "mongodb",
       "nextjs",
       "tailwindcss",
-      "typescript"
+      // "typescript"
     ];
 
     /*********************************************
